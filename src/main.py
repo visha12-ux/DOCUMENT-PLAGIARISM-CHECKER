@@ -1,4 +1,5 @@
-def main():
+from preprocessing import clean_text
+from similarity import calculate_similaritydef main():
     # Sample input documents
     doc1 = "This is a sample document. It contains some text."
     doc2 = "This document is just a sample. It has some text."
